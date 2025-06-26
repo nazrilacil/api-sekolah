@@ -1,5 +1,5 @@
 <?php
-include '../koneksi.php';
+include 'koneksi.php';
 
 $query = $conn->query("SELECT tentang_sekolah, visi, misi, sambutan_kepsek FROM pengaturan LIMIT 1");
 

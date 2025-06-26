@@ -1,6 +1,6 @@
 <?php
 header('Content-Type: application/json');
-require_once '../koneksi.php';
+require_once 'koneksi.php';
 require_once '../jwt_config.php'; // Include konfigurasi JWT
 
 use Firebase\JWT\JWT;

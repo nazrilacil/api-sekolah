@@ -1,0 +1,13 @@
+# Jangan upload koneksi / file sensitif
+koneksi.php
+debug_login.txt
+
+# Jangan upload file log / cache
+*.log
+*.cache
+
+# Kalau pakai node
+node_modules/
+
+# Kalau pakai environment variable
+.env

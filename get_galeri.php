@@ -1,5 +1,5 @@
 <?php
-include '../koneksi.php';
+include 'koneksi.php';
 header("Content-Type: application/json");
 
 $result = $conn->query("SELECT * FROM galeri ORDER BY created_at DESC");

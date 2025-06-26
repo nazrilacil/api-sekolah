@@ -5,7 +5,7 @@ header("Access-Control-Allow-Methods: POST");
 header("Access-Control-Max-Age: 3600");
 header("Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Haders, Authorization, X-Requested-With");
 
-include_once '../koneksi.php';
+include_once 'koneksi.php';
 
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
